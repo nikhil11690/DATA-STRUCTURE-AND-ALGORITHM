@@ -1,0 +1,19 @@
+// Loop Examples
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    for(int i = 0; i <= 5; i++){
+        cout << i << " ";
+    }
+
+    cout << endl;
+
+    for(int i = 0; i <= 5; i++){
+        for(int j = i; j <= 5; j++){
+            cout << i << endl;
+        }
+    }
+}
