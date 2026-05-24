@@ -21,4 +21,20 @@ int searchkey(int arr[],int size, int key){
     }
     return -1;
 }
+int main(){
+    int even[8] ={1,2,3,4,5,6,7,8};
+    int odd[5]  = {8,11,13,15,27};
 
+    
+    int ans1 = searchkey(even,8,6);
+    cout<<"index of k is"<< " " <<ans1<<endl;
+
+
+    int ans2 = searchkey(odd,5,2);
+    cout<<"index of k is"<< " " <<ans2<<endl;
+
+    return 0;
+
+    
+
+}
